@@ -14,37 +14,35 @@
 
   <body>
 
-     <!-- Start of navbar -->
-     <nav class="navbar navbar-expand-md navbar-light bg-light">
-      <a href="index.html" class="navbar-brand fw-bold">Latitude</a>
-        <button 
-          tpyp="button" 
-          data-bs-toggle="collapse" 
-          data-bs-target="#navbarMenu" 
-          class="navbar-toggler">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-      <div class="collapse navbar-collapse" id="navbarMenu">
-        <ul class="navbar-nav active ms-auto">
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" id="navbar-dropdown" 
-                  role="button" data-bs-toggle="dropdown">Visualizations</a>
-                <ul class="dropdown-menu" aria-labelledby="navbar-dropdown">
-                  <li><a href="cloudiness.html" class="dropdown-item">Cloudiness</a></li>
-                  <li><a href="humidity.html" class="dropdown-item">Humidity</a></li>
-                  <li><a href="temp.html" class="dropdown-item">Temperature</a></li>
-                  <li><a href="wind.html" class="dropdown-item">Windiness</a></li>
-                  
-                </ul>
-          </li>
+    <!-- Start of navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Latitude</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a href="data.html" class="nav-link">Data</a>
+            <a class="nav-link" href="web-design-challenge/data">Data</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Visualizations
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="visualizations/cloudiness">Cloudiness</a>
+              <a class="dropdown-item" href="visualizations/humidity">Humidity</a>
+              <a class="dropdown-item" href="visualizations/temperature">Temperature</a>
+              <a class="dropdown-item" href="visualizations/windiness">Windiness</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="visualizations/comparison">Comparison</a>
+            </div>
           </li>
         </ul>
-      </div> 
+      </div>
     </nav>
     <!-- End of navbar -->  
-
     <!-- Start of Table -->  
     <table class="table">
       <thead style="text-align: left;">
